@@ -2,12 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#774444"
     android:orientation="vertical" >
 
+     <RelativeLayout 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:layout_weight="1">
+   	    <TextView 
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_margin="10dip"
+   	        android:textSize="16dip"
+   	        android:textColor="#ffff00"
+   	        android:textStyle="bold"
+   	        android:text="Make a new username and password. The password will be public."
+   	        android:gravity="center"
+   	        android:layout_centerInParent="true"/>
+   	</RelativeLayout>
+    
    	<RelativeLayout 
    	    android:layout_width="fill_parent"
    	    android:layout_height="fill_parent"
-   	    android:layout_weight="2">
+   	    android:layout_weight="1">
    	    <EditText 
    	        android:id="@+id/edit_username"
    	        android:layout_width="fill_parent"
@@ -16,7 +33,6 @@
    	        android:layout_marginRight="10dip"
    	        android:imeOptions="actionNext"
    	        android:inputType="text"
-   	        android:layout_marginTop="30dip"
    	        android:hint="Username"/>
    	    <EditText 
    	        android:id="@+id/edit_password"
@@ -40,9 +56,9 @@
    	    <Button 
    	        android:id="@+id/button_go"
    	        android:layout_width="fill_parent"
-   	        android:layout_height="fill_parent"
+   	        android:layout_height="wrap_content"
    	        android:layout_margin="10dip"
-   	        android:textSize="130dip"
+   	        android:textSize="120dip"
    	        android:text="GO!"
    	        android:layout_centerInParent="true"/>
    	</RelativeLayout>
