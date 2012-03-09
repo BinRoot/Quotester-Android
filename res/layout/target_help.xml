@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="160dip">
+	    <TextView 
+	        android:id="@+id/text_target_help"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:gravity="center"
+	        android:textSize="20dip"
+	        android:text="This password keeps strangers away from peeking, but lets friends in. Share this password with your friends so they can join you post quotes! "/>
+	</RelativeLayout>
+</LinearLayout>

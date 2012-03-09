@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   	<RelativeLayout 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:layout_weight="2">
+   	    <EditText 
+   	        android:id="@+id/edit_username"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginLeft="10dip"
+   	        android:layout_marginRight="10dip"
+   	        android:imeOptions="actionNext"
+   	        android:inputType="text"
+   	        android:layout_marginTop="30dip"
+   	        android:hint="Username"/>
+   	    <EditText 
+   	        android:id="@+id/edit_password"
+   	        android:password="true"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginLeft="10dip"
+   	        android:layout_marginRight="10dip"
+   	        android:layout_marginTop="10dip"
+   	        android:layout_below="@id/edit_username"
+   	        android:imeOptions="actionGo"
+   	        android:inputType="text"
+   	        android:hint="Public Password"/>
+   	</RelativeLayout>
+   	
+   	
+    <RelativeLayout 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:layout_weight="1">
+   	    <Button 
+   	        android:id="@+id/button_go"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="fill_parent"
+   	        android:layout_margin="10dip"
+   	        android:textSize="130dip"
+   	        android:text="GO!"
+   	        android:layout_centerInParent="true"/>
+   	</RelativeLayout>
+
+</LinearLayout>

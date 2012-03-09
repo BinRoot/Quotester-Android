@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="#111111">
+        <TextView 
+            android:id="@+id/text_friend_item_search_stable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Found: "
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"/>
+        <TextView 
+		    android:id="@+id/text_friend_item_search"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="friend"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="20dip"
+			android:layout_toRightOf="@+id/text_friend_item_search_stable"/>
+    </RelativeLayout>
+	
+</RelativeLayout>
